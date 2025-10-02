@@ -1,29 +1,15 @@
-# web-dev-starter
+## Running
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
-
-## Getting Started
-
-To get started, clone this repository and run the following commands:
-
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+To run, ensure you have the Live Preview extension installed. Then, simply navigate to the
+debugging tab on the left-hand nav bar and hit the big green arrow next to the words 
+"Debug Website"
 
 ## Development
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+This was the hardest lab to me by far. I do not like CSS and I had to refresh myself on
+a few other key things for this lab so it took me a sec lol. But all in all I think I did
+alright.
 
 ## Testing
 
-To run the tests for the project, run the following command:
-
-```bash
-npm test
-```
+No tests for this lab

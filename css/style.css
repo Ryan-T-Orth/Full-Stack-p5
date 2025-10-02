@@ -1,29 +1,132 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  box-sizing: border-box;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+html {
+  font-family: sans-serif;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+body {
+  margin: 0;
+  background: #ccc;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Your CSS below here */
+
+hr {
+  width: 75%;
+}
+
+.content {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.left-col,
+.right-col {
+  width: 40%;
+}
+
+.content p {
+  font-size: x-small;
+}
+
+nav li {
+  list-style: none;
+  display: inline-flex;
+  padding-top: 225px;
+}
+
+.lipsum-title {
+  position: static;
+  text-align: center;
+  color: black;
+  text-shadow: none;
+  height: auto;
+  width: auto;
+  padding: initial;
+  letter-spacing: normal;
+}
+
+.quote {
+  font-size: x-small;
+  text-align: center;
+}
+
+form {
+  font-size: x-small;
+  justify-content: center;
+  display: table;
+}
+
+.radio-list {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.col1 {
+  width: 20%;
+}
+
+.col2,
+.col3 {
+  width: 40%;
+}
+
+#amount {
+  width: 30px;
+}
+
+.submit-button-div {
+  justify-content: center;
+}
+
+#generate {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* BACKUP */
+body {
+  background: url(../img/top-image.png) no-repeat top center;
+}
+
+body {
+  background: url(../img/top-image.png) no-repeat top center,
+    url(../img/bottom-image.png) no-repeat bottom center,
+    linear-gradient(to bottom, rgba(230, 230, 230, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(230, 230, 230, 1) 100%);
+  background-color: white;
+  border-top: 2px solid lime;
+  border-bottom: 2px solid lime;
+}
+
+.logo {
+  background-image: url(../img/logo.png);
 }
